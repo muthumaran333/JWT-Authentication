@@ -40,9 +40,13 @@ Welcome to the MERN Stack Educational Platform! This project allows users to reg
 
 *This is the user profile page where logged-in users can view their personal information and update their profile details.*
 
+### 📁 File Structure
+![File Structure](https://github.com/muthumaran333/jwt-authentication/blob/main/Images/filestructure.PNG)
+
+*This diagram represents the file structure of the MERN Stack Educational Platform project, illustrating the organization of frontend and backend components.*
+
 ### 🗄️ Database
 ![Database](https://github.com/muthumaran333/jwt-authentication/blob/main/Images/database.PNG)
-
 
 ## Getting Started
 
