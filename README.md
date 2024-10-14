@@ -1,31 +1,56 @@
 
-# MERN Stack Educational Platform
+# MERN Stack Educational Platform ![MERN Logo](https://img.shields.io/badge/MERN-Stack-blue)
 
 Welcome to the MERN Stack Educational Platform! This project allows users to register and log in, with functionality for managing educational records through a user-friendly dashboard.
 
 ## Features
 
-- **User Registration and Login**: Users can register and log in to the application.
-- **Course Management**: Create, read, update, and delete course records.
-- **Responsive Dashboard**: A modern and responsive UI built with React for displaying course information.
-- **Secure Password Handling**: Implement secure password management practices.
-- **Cross-Origin Resource Sharing (CORS)**: Enabled for seamless interaction between the front-end and back-end.
+- 🧑‍💻 **User Registration and Login**: Users can register and log in to the application.
+- 📚 **Course Management**: Create, read, update, and delete course records.
+- 📊 **Responsive Dashboard**: A modern and responsive UI built with React for displaying course information.
+- 🔒 **Secure Password Handling**: Implement secure password management practices.
+- 🌐 **Cross-Origin Resource Sharing (CORS)**: Enabled for seamless interaction between the front-end and back-end.
 
 ## Technologies Used
 
-- **Frontend**: React, Tailwind CSS
-- **Backend**: Node.js, Express
-- **Database**: MongoDB
-- **Password Hashing**: bcrypt
-- **Environment Variables**: dotenv
+- 🎨 **Frontend**: React, Tailwind CSS
+- 🖥️ **Backend**: Node.js, Express
+- 🗄️ **Database**: MongoDB
+
+
+## Screenshots
+
+### 🖥️ Dashboard Page
+![Dashboard](https://github.com/muthumaran333/jwt-authentication/blob/main/Images/jwt1.PNG)
+
+*This is the main dashboard where users can view the course information in a well-organized and responsive interface. It provides options to create, edit, and delete courses.*
+
+### 📝 Register Page
+![Register](https://github.com/muthumaran333/jwt-authentication/blob/main/Images/Register.PNG)
+
+*This is the user registration page where new users can create an account by providing their personal information, email, and password.*
+
+### 🔑 Login Page
+![Login](https://github.com/muthumaran333/jwt-authentication/blob/main/Images/jwtlog.PNG)
+
+*This is the login page where existing users can sign in to access their accounts. It supports secure authentication using JWT.*
+
+### 👤 Profile Page
+![Profile](https://github.com/muthumaran333/jwt-authentication/blob/main/Images/profile.PNG)
+
+*This is the user profile page where logged-in users can view their personal information and update their profile details.*
+
+### 🗄️ Database
+![Database](https://github.com/muthumaran333/jwt-authentication/blob/main/Images/database.PNG)
+
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (>=14.x)
-- MongoDB (>=4.x)
-- npm (Node Package Manager)
+- 📦 **Node.js** (>=14.x)
+- 🍃 **MongoDB** (>=4.x)
+- 📦 **npm** (Node Package Manager)
 
 ### Installation
 
@@ -36,6 +61,7 @@ Welcome to the MERN Stack Educational Platform! This project allows users to reg
    ```
 
 ### 2. Install Dependencies
+
 
 #### Backend (JWT Auth)
 Navigate to the `jwt-auth-backend` folder:
@@ -49,12 +75,12 @@ Install the backend dependencies:
    ```
 
 The main backend dependencies include:
-- **express**: For building the API.
-- **mongoose**: For MongoDB interaction.
-- **bcrypt**: For password hashing.
-- **cors**: For enabling CORS.
-- **dotenv**: For environment variables management.
-- **express-validator**: For request validation.
+- 🛠️ **express**: For building the API.
+- 🍃 **mongoose**: For MongoDB interaction.
+- 🔒 **bcrypt**: For password hashing.
+- 🌍 **cors**: For enabling CORS.
+- 🛠️ **dotenv**: For environment variables management.
+- ✅ **express-validator**: For request validation.
 
 #### Frontend (JWT Auth)
 Navigate to the `jwt-auth-frontend` folder:
@@ -68,10 +94,10 @@ Install the frontend dependencies:
    ```
 
 The main frontend dependencies include:
-- **react**: For building the UI.
-- **axios**: For making HTTP requests.
-- **react-router-dom**: For handling routing in React.
-- **tailwindcss**: For styling the frontend.
+- ⚛️ **react**: For building the UI.
+- 🌐 **axios**: For making HTTP requests.
+- 🧭 **react-router-dom**: For handling routing in React.
+- 🎨 **tailwindcss**: For styling the frontend.
 
 ### 3. Set Up Environment Variables
 
@@ -98,9 +124,3 @@ To run the frontend application, navigate to the `jwt-auth-frontend` folder and 
    ```
 
 The frontend will run on `http://localhost:3000`, and the backend will be accessible via `http://localhost:5000`.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
